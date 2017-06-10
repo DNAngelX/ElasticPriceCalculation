@@ -1,11 +1,11 @@
 {
-  "name": "ElasticExportPreisCalcu",
+  "name": "ElasticExportPriceCalcu",
   "description": "This plugin adds the format for a Pricecalculation to the Elastic Export.",
-  "namespace": "ElasticExportPreisCalcu",
+  "namespace": "ElasticExportPriceCalcu",
   "author": "hashtagES GmbH",
   "type": "export",
   "authorIcon": "icon_author_xs.png",
-  "serviceProvider": "ElasticExportPreisCalcu\\ElasticExportPreisCalcuServiceProvider",
+  "serviceProvider": "ElasticExportPriceCalcu\\ElasticExportPriceCalcuServiceProvider",
   "license": "GNU AFFERO GENERAL PUBLIC LICENSE Version 3, 19 November 2007",
   "pluginIcon": "icon_plugin_md.png",
   "price": 0.00,
@@ -18,7 +18,7 @@
   ],
   "version": "1.0.0",
   "marketplaceName": {
-    "de": "pricecalcu.de",
-    "en": "pricecalcu.de"
+    "de": "PriceCalcu.de",
+    "en": "PriceCalcu.de"
   }
 }
