@@ -15,9 +15,9 @@ class ElasticExportPriceCalcuServiceProvider extends DataExchangeServiceProvider
     public function exports(ExportPresetContainer $container)
     {
         $container->add(
-            'KaufluxDE-Plugin',
-            'ElasticExportKaufluxDE\ResultField\KaufluxDE',
-            'ElasticExportKaufluxDE\Generator\KaufluxDE',
+            'Preiskalkulation-Plugin',
+            'ElasticExportPriceCalcu\ResultField\PriceCalcu',
+            'ElasticExportPriceCalcu\Generator\PriceCalcu',
             '',
             true
         );
